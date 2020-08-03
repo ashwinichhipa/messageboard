@@ -1,39 +1,4 @@
-$ python3 messageboarddriver.py 
-##################################################
-## Hello! Welcome to the Message board System.  ##
-## We have Public and Private message boards    ##
-## available to you, which you can choose to    ##
-## subscribe, unsubscribe and make change to    ##
-## the notification channel.                    ##
-## For every new message posted on these boards ##
-## you'll be notified by the channel you choose.##
-##################################################
-
-
-####################################################
-## Case 1: New User Subscription to Public board. ##
-## Username: ashwini                              ##
-## Message Board: Public                          ##
-####################################################
-
-**Welcome ashwini to this Public board, you can choose to select the notification channel for all the future messages**
-
-Choose a notification channel:
-	1. SMS
-	2. Email
-	3. WhatsApp
-Enter the number :^CTraceback (most recent call last):
-  File "final.py", line 120, in <module>
-    subscribeAndSetNotifications(username, messageBoard)
-  File "final.py", line 51, in subscribeAndSetNotifications
-    setNotificationChannel(mPubObj, subObj)
-  File "final.py", line 21, in setNotificationChannel
-    choice = input("Enter the number :")
-KeyboardInterrupt
-MacBook-Pro:messageboard2 ac55$ 
-MacBook-Pro:messageboard2 ac55$ 
-MacBook-Pro:messageboard2 ac55$ 
-MacBook-Pro:messageboard2 ac55$ python3 final.py 
+python3 messageboarddriver.py
 ##################################################
 ## Hello! Welcome to the Message board System.  ##
 ## We have Public and Private message boards    ##
@@ -58,7 +23,6 @@ Choose a notification channel:
 	2. Email
 	3. WhatsApp
 Enter the number of your choice :1
-Please enter your mobile number: 1231231231
 Registering you for this message board . . .
 
 Congratulations! You have been successfully subscribed to this board.
@@ -69,9 +33,9 @@ Congratulations! You have been successfully subscribed to this board.
 ## Username: chhipa                               ##
 ## Message Board: Private                         ##
 ####################################################
-Please enter the password provided to you for this Private board: password
+Please enter the password provided to you for this Private board: testing
 Wrong password. Try again?
-Please enter the password provided to you for this Private board: very$ecuRePa$$worD
+Please enter the password provided to you for this Private board: password
 
 **Welcome chhipa, to this Private board, you can choose to select the notification channel for all the future messages**
 Choose a notification channel:
@@ -79,7 +43,6 @@ Choose a notification channel:
 	2. Email
 	3. WhatsApp
 Enter the number of your choice :2
-Please enter your email address: chhipa@chhipa.com
 Registering you for this message board . . .
 
 Congratulations! You have been successfully subscribed to this board.
@@ -98,7 +61,6 @@ Choose a notification channel:
 	2. Email
 	3. WhatsApp
 Enter the number of your choice :1
-Please enter your mobile number: 8908908908
 Registering you for this message board . . .
 
 Congratulations! You have been successfully subscribed to this board.
@@ -110,7 +72,6 @@ Choose a notification channel:
 	2. Email
 	3. WhatsApp
 Enter the number of your choice :3
-Please enter your whatapp number: 5675675675
 Registering you for this message board . . .
 
 Congratulations! You have been successfully subscribed to this board.
@@ -122,7 +83,6 @@ Choose a notification channel:
 	2. Email
 	3. WhatsApp
 Enter the number of your choice :2
-Please enter your email address: viv@viv.com
 Registering you for this message board . . .
 
 Congratulations! You have been successfully subscribed to this board.
@@ -134,7 +94,6 @@ Choose a notification channel:
 	2. Email
 	3. WhatsApp
 Enter the number of your choice :1
-Please enter your mobile number: 3838383838
 Registering you for this message board . . .
 
 Congratulations! You have been successfully subscribed to this board.
