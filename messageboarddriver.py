@@ -4,7 +4,6 @@ from time import sleep
 # Method to set notification for user specified channel
 def setNotificationChannel(boardObj, subObj):
 
-    channelList = ["sms", "email", "whatsapp"]
     print("Choose a notification channel:")
     print("\t1. SMS")
     print("\t2. Email")
@@ -49,7 +48,7 @@ def subscribeAndSetNotifications(userid, mboard):
             count=0
             while count < 3:
                 password = input('Please enter the password provided to you for this Private board: ')
-                if password=="very$ecuRePa$$worD":
+                if password=="password":
                     print("\n**Welcome {}, to this Private board, you can choose to select the notification channel for all the future messages**".format(userid))
                     subObj = Subscriber(userid)
                     privateUserDict[userid] = subObj
