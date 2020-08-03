@@ -39,5 +39,6 @@ Using Python to show how the observer behavioural pattern can be used to impleme
 5. Notification channels are dummy and only a message is printed on screen stating user has been notified by X channel
  
 ### Enhancements:
+1. Add event handlers 
 1. Better unit tests
 2. More user interaction for each cases
