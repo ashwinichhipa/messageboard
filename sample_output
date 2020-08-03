@@ -1,0 +1,210 @@
+$ python3 messageboard_event_driver.py
+##################################################
+## Hello! Welcome to the Message board System.  ##
+## We have Public and Private message boards    ##
+## available to you, which you can choose to    ##
+## subscribe, unsubscribe and make change to    ##
+## the notification channel.                    ##
+## For every new message posted on these boards ##
+## you'll be notified by the channel you choose.##
+##################################################
+
+
+####################################################
+## Case 1: New User Subscription to Public board. ##
+## Username: ashwini                              ##
+## Message Board: Public                          ##
+####################################################
+
+**Welcome ashwini to this Public board, you can choose to select the notification channel for all the future messages**
+
+Choose a notification channel:
+	1. SMS
+	2. Email
+	3. WhatsApp
+Enter the number of your choice :1
+
+Registering you for this message board . . .
+
+Setting SMS as notification channel. . .
+
+Congratulations! You have been successfully subscribed to this board.
+
+
+####################################################
+## Case 2: New User Subscription to Private board.##
+## Username: chhipa                               ##
+## Message Board: Private                         ##
+####################################################
+Please enter the password provided to you for this Private board: password
+
+**Welcome chhipa, to this Private board, you can choose to select the notification channel for all the future messages**
+Choose a notification channel:
+	1. SMS
+	2. Email
+	3. WhatsApp
+Enter the number of your choice :2
+
+Registering you for this message board . . .
+
+Setting SMS as notification channel. . .
+
+Congratulations! You have been successfully subscribed to this board.
+
+
+############################################################
+## Case 3: Add few more Subscriptions to Public board.    ##
+## Username: alice, bob, vivian, testuser                 ##
+## Message Board: Public                                  ##
+## NOTE : make sure to subscribe alice & testuser for SMS ##
+############################################################
+
+**Welcome alice to this Public board, you can choose to select the notification channel for all the future messages**
+
+Choose a notification channel:
+	1. SMS
+	2. Email
+	3. WhatsApp
+Enter the number of your choice :1
+
+Registering you for this message board . . .
+
+Setting SMS as notification channel. . .
+
+Congratulations! You have been successfully subscribed to this board.
+
+**Welcome bob to this Public board, you can choose to select the notification channel for all the future messages**
+
+Choose a notification channel:
+	1. SMS
+	2. Email
+	3. WhatsApp
+Enter the number of your choice :2
+
+Registering you for this message board . . .
+
+Setting SMS as notification channel. . .
+
+Congratulations! You have been successfully subscribed to this board.
+
+**Welcome vivian to this Public board, you can choose to select the notification channel for all the future messages**
+
+Choose a notification channel:
+	1. SMS
+	2. Email
+	3. WhatsApp
+Enter the number of your choice :3
+
+Registering you for this message board . . .
+
+Setting SMS as notification channel. . .
+
+Congratulations! You have been successfully subscribed to this board.
+
+**Welcome testuser to this Public board, you can choose to select the notification channel for all the future messages**
+
+Choose a notification channel:
+	1. SMS
+	2. Email
+	3. WhatsApp
+Enter the number of your choice :1
+
+Registering you for this message board . . .
+
+Setting SMS as notification channel. . .
+
+Congratulations! You have been successfully subscribed to this board.
+
+
+##########################################################
+## Case 4: Notify users for new message on Public board.##
+##########################################################
+List of Public Board subscribers : ['ashwini', 'alice', 'bob', 'vivian', 'testuser']
+
+Notifying all the subscribers...
+
+Via SMS:
+Notification sent to ashwini with message: "A new message has been posted on the Public board."
+Notification sent to alice with message: "A new message has been posted on the Public board."
+Notification sent to testuser with message: "A new message has been posted on the Public board."
+
+Via Email:
+Notification sent to bob with message: "A new message has been posted on the Public board."
+
+Via Whatsapp:
+Notification sent to vivian with message: "A new message has been posted on the Public board."
+
+
+###########################################################
+## Case 5: Notify users for new message on Private board.##
+###########################################################
+List of Private Board subscribers : ['chhipa']
+
+Notifying all the subscribers...
+
+Via SMS:
+
+Via Email:
+Notification sent to chhipa with message: "A new message has been posted on the Private board."
+
+Via Whatsapp:
+
+
+####################################################
+## Case 6: Unsubscribe testuser from Public board.##
+## Username: testuser                             ##
+## Message Board: Public                          ##
+####################################################
+List of Public Board subscribers : ['ashwini', 'alice', 'bob', 'vivian', 'testuser']
+
+Unsubscribing testuser from Public board...
+You have been successfully unsubscribed from the Public Message Board System!
+
+List of Public Board subscribers after  : ['ashwini', 'alice', 'bob', 'vivian']
+
+
+###########################################################
+## Case 7: Notify users for new message on Public board. ##
+###########################################################
+List of Public Board subscribers : ['ashwini', 'alice', 'bob', 'vivian']
+
+Notifying all the subscribers...
+
+Via SMS:
+Notification sent to ashwini with message: "A new message has been posted on the Public board."
+Notification sent to alice with message: "A new message has been posted on the Public board."
+
+Via Email:
+Notification sent to bob with message: "A new message has been posted on the Public board."
+
+Via Whatsapp:
+Notification sent to vivian with message: "A new message has been posted on the Public board."
+
+
+###################################################################
+## Case 8: Modify notification channel for alice on Public board.##
+## Username: alice                                               ##
+## Message Board: Public                                         ##
+## New channel: Whatsapp                                         ##
+###################################################################
+Modifying notification channel for alice to Whatsapp...
+Modification done!
+
+
+###########################################################
+## Case 9: Notify users for new message on Public board. ##
+###########################################################
+List of Public Board subscribers : ['ashwini', 'alice', 'bob', 'vivian']
+
+Notifying all the subscribers...
+
+Via SMS:
+Notification sent to ashwini with message: "Third message has been posted on the Public board."
+Notification sent to alice with message: "Third message has been posted on the Public board."
+
+Via Email:
+Notification sent to bob with message: "A new message has been posted on the Public board."
+
+Via Whatsapp:
+Notification sent to vivian with message: "A new message has been posted on the Public board."
+Notification sent to alice with message: "A new message has been posted on the Public board."
