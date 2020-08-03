@@ -12,15 +12,12 @@ def setNotificationChannel(boardObj, subObj):
     choice = input("Enter the number of your choice :")
 
     if choice == '1':
-        number = input("Please enter your mobile number: ")
         print("Registering you for this message board . . .")
         boardObj.register(subObj, subObj.notifyBySMS)
     elif choice == '2':
-        email = input("Please enter your email address: ")
         print("Registering you for this message board . . .")
         boardObj.register(subObj, subObj.notifyByEmail)
     elif choice == '3':
-        whatsapp = input("Please enter your whatapp number: ")
         print("Registering you for this message board . . .")
         boardObj.register(subObj, subObj.notifyByWhatsapp)
     else:
