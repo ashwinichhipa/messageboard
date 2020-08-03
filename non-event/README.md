@@ -11,7 +11,7 @@ Using Python to show how the observer behavioural pattern can be used to impleme
 
 ``` 
  git clone https://github.com/ashwinichhipa/messageboard.git
- cd messageboard
+ cd messageboard/non-event
 ```
 
 ### Applications:
